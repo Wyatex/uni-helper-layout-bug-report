@@ -45,7 +45,7 @@
         "@uni-helper/vite-plugin-uni-components": "^0.2.3",
         "@uni-helper/vite-plugin-uni-layouts": "^0.1.11",
         "@uni-helper/vite-plugin-uni-manifest": "^0.2.9",
-        "@uni-helper/vite-plugin-uni-pages": "^0.3.19",
+        "@uni-helper/vite-plugin-uni-pages": "^0.3.23",
         "@unocss/eslint-config": "^66.3.3",
         "@vue/runtime-core": "3.4.21",
         "@vue/tsconfig": "^0.7.0",
@@ -746,7 +746,7 @@
 
     "@uni-helper/vite-plugin-uni-manifest": ["@uni-helper/vite-plugin-uni-manifest@0.2.9", "https://registry.npmmirror.com/@uni-helper/vite-plugin-uni-manifest/-/vite-plugin-uni-manifest-0.2.9.tgz", { "dependencies": { "c12": "2.0.4" }, "peerDependencies": { "vite": "5.2.8" } }, "sha512-lm1BUw11ZsORxiY8jRyQuUy+qFDdLz76TERZehuH6i140X5Q5JU/XIq2G2STo8aPhrXYHCfX3848TgVUlcxM0g=="],
 
-    "@uni-helper/vite-plugin-uni-pages": ["@uni-helper/vite-plugin-uni-pages@0.3.19", "https://registry.npmmirror.com/@uni-helper/vite-plugin-uni-pages/-/vite-plugin-uni-pages-0.3.19.tgz", { "dependencies": { "@babel/generator": "7.28.3", "@babel/types": "7.28.2", "@types/proper-lockfile": "4.1.4", "@uni-helper/uni-env": "0.1.7", "@vue/compiler-sfc": "3.4.21", "ast-kit": "1.4.3", "chokidar": "3.6.0", "comment-json": "4.2.5", "debug": "4.4.1", "detect-indent": "6.1.0", "detect-newline": "3.1.0", "fast-glob": "3.3.3", "json5": "2.2.3", "kolorist": "1.8.0", "lodash.groupby": "4.6.0", "magic-string": "0.30.18", "proper-lockfile": "4.1.2", "typescript": "5.9.2", "unconfig": "7.3.2", "yaml": "2.8.1" }, "peerDependencies": { "vite": "5.2.8" } }, "sha512-vpzLpg4K8sxa3Fvh1Vntswl5FktoTBRSMfAaaZ+JHrM2Mszh84EDIX28oksLTjM4/xqrpG9/mghw/z/E+jkGbQ=="],
+    "@uni-helper/vite-plugin-uni-pages": ["@uni-helper/vite-plugin-uni-pages@0.3.23", "https://registry.npmmirror.com/@uni-helper/vite-plugin-uni-pages/-/vite-plugin-uni-pages-0.3.23.tgz", { "dependencies": { "@babel/generator": "^7.28.3", "@babel/types": "^7.28.2", "@types/proper-lockfile": "^4.1.4", "@uni-helper/uni-env": "^0.1.4", "@vue/compiler-sfc": "3.4.21", "ast-kit": "1.4.3", "chokidar": "^3.6.0", "comment-json": "^4.2.5", "debug": "^4.3.6", "detect-indent": "^6.1.0", "detect-newline": "^3.1.0", "fast-glob": "^3.3.2", "json5": "^2.2.3", "kolorist": "^1.8.0", "lodash.groupby": "^4.6.0", "magic-string": "^0.30.11", "proper-lockfile": "^4.1.2", "typescript": "5.9.2", "unconfig": "^7.3.2", "write-file-atomic": "^7.0.0", "yaml": "^2.5.0" }, "peerDependencies": { "vite": "^5.0.0" } }, "sha512-dokW4rY/g1aOwCp3Jjjwyek20YY7vBEwixy/j+lesudrY1+YEGMQwdq8gB6yDdnywQijqy9GRTu+GwlNESDKkA=="],
 
     "@unocss-applet/preset-applet": ["@unocss-applet/preset-applet@0.11.0", "https://registry.npmmirror.com/@unocss-applet/preset-applet/-/preset-applet-0.11.0.tgz", { "dependencies": { "@unocss/core": "66.5.1", "@unocss/preset-mini": "66.5.1", "@unocss/preset-wind3": "66.5.1", "@unocss/preset-wind4": "66.5.1" } }, "sha512-nIDwW2hgb+aNGGQHHgRomGiGSKEhLOwtuwisdWbEwqzTzfdgw1dW5wzKrmgp+S+i3UQwNq1LGBnDJU4p6SH4hQ=="],
 
@@ -2270,7 +2270,7 @@
 
     "wrappy": ["wrappy@1.0.2", "https://registry.npmmirror.com/wrappy/-/wrappy-1.0.2.tgz", {}, "sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ=="],
 
-    "write-file-atomic": ["write-file-atomic@3.0.3", "https://registry.npmmirror.com/write-file-atomic/-/write-file-atomic-3.0.3.tgz", { "dependencies": { "imurmurhash": "0.1.4", "is-typedarray": "1.0.0", "signal-exit": "3.0.7", "typedarray-to-buffer": "3.1.5" } }, "sha512-AvHcyZ5JnSfq3ioSyjrBkH9yW4m7Ayk8/9My/DD9onKeu/94fwrMocemO2QAJFAlnnDN+ZDS+ZjAR5ua1/PV/Q=="],
+    "write-file-atomic": ["write-file-atomic@7.0.0", "https://registry.npmmirror.com/write-file-atomic/-/write-file-atomic-7.0.0.tgz", { "dependencies": { "imurmurhash": "^0.1.4", "signal-exit": "^4.0.1" } }, "sha512-YnlPC6JqnZl6aO4uRc+dx5PHguiR9S6WeoLtpxNT9wIG+BDya7ZNE1q7KOjVgaA73hKhKLpVPgJ5QA9THQ5BRg=="],
 
     "ws": ["ws@8.18.0", "https://registry.npmmirror.com/ws/-/ws-8.18.0.tgz", {}, "sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw=="],
 
@@ -2385,6 +2385,8 @@
     "@jest/reporters/@types/node": ["@types/node@24.3.0", "https://registry.npmmirror.com/@types/node/-/node-24.3.0.tgz", { "dependencies": { "undici-types": "7.10.0" } }, "sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow=="],
 
     "@jest/transform/convert-source-map": ["convert-source-map@1.9.0", "https://registry.npmmirror.com/convert-source-map/-/convert-source-map-1.9.0.tgz", {}, "sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A=="],
+
+    "@jest/transform/write-file-atomic": ["write-file-atomic@3.0.3", "https://registry.npmmirror.com/write-file-atomic/-/write-file-atomic-3.0.3.tgz", { "dependencies": { "imurmurhash": "0.1.4", "is-typedarray": "1.0.0", "signal-exit": "3.0.7", "typedarray-to-buffer": "3.1.5" } }, "sha512-AvHcyZ5JnSfq3ioSyjrBkH9yW4m7Ayk8/9My/DD9onKeu/94fwrMocemO2QAJFAlnnDN+ZDS+ZjAR5ua1/PV/Q=="],
 
     "@jest/types/@types/node": ["@types/node@24.3.0", "https://registry.npmmirror.com/@types/node/-/node-24.3.0.tgz", { "dependencies": { "undici-types": "7.10.0" } }, "sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow=="],
 
@@ -2819,6 +2821,8 @@
     "wrap-ansi/string-width": ["string-width@7.2.0", "https://registry.npmmirror.com/string-width/-/string-width-7.2.0.tgz", { "dependencies": { "emoji-regex": "10.4.0", "get-east-asian-width": "1.3.0", "strip-ansi": "7.1.0" } }, "sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ=="],
 
     "wrap-ansi/strip-ansi": ["strip-ansi@7.1.0", "https://registry.npmmirror.com/strip-ansi/-/strip-ansi-7.1.0.tgz", { "dependencies": { "ansi-regex": "6.1.0" } }, "sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ=="],
+
+    "write-file-atomic/signal-exit": ["signal-exit@4.1.0", "https://registry.npmmirror.com/signal-exit/-/signal-exit-4.1.0.tgz", {}, "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw=="],
 
     "yaml-eslint-parser/eslint-visitor-keys": ["eslint-visitor-keys@3.4.3", "https://registry.npmmirror.com/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz", {}, "sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag=="],
 
